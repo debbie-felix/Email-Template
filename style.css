@@ -1,0 +1,145 @@
+body{
+    height: 800px;
+}
+
+.container{
+    margin: auto;
+    margin-top: 137px;
+    width: 600px;
+    height: 582px;
+    border: 3px solid #006AFF;
+    border-right: none; 
+    border-left: none;
+
+}
+
+.email-content-container{
+    width: 518px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.company-header-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #E9EBF5;
+    border-top: none;
+    border-right: none; 
+    border-left: none;
+
+}
+
+.company-logo{
+    width: 27.31px;
+    height: 27.31px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: #006AFF; 
+   
+}
+
+.company-name{
+    color: #1C1C1D;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.first-message-box{
+    width: 500px;
+    height: 85px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13.5px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #292B2E;
+    margin-top: 25px;
+
+    /* border: 1px solid purple; */
+}
+
+.greetings{
+    padding-bottom: 15px;
+}
+
+.hi{
+    display: inline;
+}
+
+.username{
+    display: inline;
+    font-weight: 600;
+
+}
+
+.btn{
+    width: 200px;
+    height: 45px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    background-color: #006AFF; 
+    border: none;
+    margin-top: 25px;
+
+}
+
+.second-message-box{
+    width: 550px;
+    height: 144px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13.5px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #292B2E;
+    margin-top: 15px;
+
+    /* border: 1px solid purple; */
+}
+
+.email-signature{
+    margin-top: 30px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13.5px;
+    font-weight: 300;
+}
+
+footer{
+    width: 600px;
+    height: 115px;
+    /* align-items: center; */
+    /* margin: auto; */
+    margin-top: 55px;
+    background-color:#F8F8F8;
+    /* border: 1px solid red; */
+
+
+}
+
+.footer-content{
+    width: 177px;
+    height: 45px;
+    display: flex; 
+    align-items: center;
+    padding: 4% 0 0 40%;
+
+    /* padding-left: 200px; */
+    /* border: 1px solid purple; */
+
+}
+
+.copyrights{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    width: 177px;
+    height: 20px;
+    color: #010101;
+    opacity: 50%;
+    padding: 0 0 0 35%;
+      /* margin-left: 170px; */
+    /* border: 1px solid red;  */
+
+    
+}
